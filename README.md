@@ -1,2 +1,2 @@
-# code4lib2106_cars
-Cars example for the workshop
+# Cars Example
+This is just a quick example using the RStudio default cars Markdown example. Then also implemented in LaTeX. 
