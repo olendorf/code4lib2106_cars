@@ -1,0 +1,17 @@
+{
+    "contents" : "\\documentclass{article}\n\n\\usepackage{graphicx}\n\\usepackage{wrapfig}\n\\usepackage[utf8]{inputenc}\n\\usepackage[english]{babel}\n \n\\setlength{\\parindent}{2em}\n\\setlength{\\parskip}{1em}\n\n\\graphicspath{ {images/} }\n\n\n\\title{Quick Tour of R and R Studio}\n\\date{February 12, 2106}\n\\author{Robert Olendorf}\n\n\\begin{document}\n  \\maketitle\n  \\pagenumbering{gobble}\n  \\newpage\n  \n  This is an R LaTeX document. LaTeX is a powerful typesetting syntax for authoring PDF documents. For more details on using R Markdown see <https://www.latex-project.org/>.\n  \n  When you click the \\textbf{Compile PDF} button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n  \n  <<summary>>=\n  summary(cars)\n  @\n  \n  \nYou can also embed plots, for example:\n\n  <<plot, echo=FALSE>>=\n  plot(cars)\n  @\n  \n    \n  Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.\n\\end{document}",
+    "created" : 1456505185751.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3190970372",
+    "id" : "51F78C29",
+    "lastKnownWriteTime" : 1456505187,
+    "path" : "~/Documents/r_projects/code4lib2016/cars/cars.Rnw",
+    "project_path" : "cars.Rnw",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "sweave"
+}
